@@ -10,10 +10,14 @@ environment:
   sdk: '>=3.4.4 <4.0.0'
 
 dependencies:
+  firebase_core: ^3.4.1
   flutter:
     sdk: flutter
-  flutter_localizations:
-    sdk: flutter
+  flutter_map: ^4.0.0
+  http: ^0.13.6
+  latlong2: ^0.8.1
+  geolocator: ^9.0.1
+ 
 
 dev_dependencies:
   flutter_test:
